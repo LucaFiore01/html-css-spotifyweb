@@ -1,5 +1,75 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+#wrapper {
+    background-color: crimson;
+    height: 100vh;
+}
+
+main {
+    background-color: rgb(139, 111, 111);
+    height: calc(100% - 100px);
+    display: flex;
+}
+
+.main-menu {
+    background-color: aquamarine;
+    width: 200px;
+}
+
+.main-content {
+    background-color: chartreuse;
+    width: calc(100% - 200px);
+    padding-bottom: 100px;
+}
+
+footer {
+    background-color: blue;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    background-color: blueviolet;
+    justify-content: end;
+    padding: 20px;
+    position: sticky;
+
+}
+
+.button-outline {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 500px;
+}
+
+.button-outline:hover {
+    cursor: pointer;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.tab {
+    cursor: pointer;
+    color: lightslategray;
+    font-weight: bold;
+}
+
+.tab:hover {
+    color: white;
 }
