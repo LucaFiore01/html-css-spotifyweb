@@ -17,9 +17,9 @@ main {
     display: flex;
 }
 
-.main-menu {
+.side-menu {
     background-color: rgb(0, 0, 0);
-    width: 200px;
+    width: 300px;
 }
 
 .main-content {
@@ -141,4 +141,86 @@ h2 {
 
 p {
     padding-bottom: 10px;
+}
+
+.side-logo {
+    width: 200px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.side-img {
+    width: 35px;
+}
+
+ul {
+    list-style: none;
+    padding: 0 15px;
+}
+
+ul li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(92, 90, 90);
+    font-weight: bold;
+}
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.playlist-item:hover {
+    color: white;
+}
+
+.side-txt {
+    padding: 10px;
+    padding-left: 2px;
+}
+
+.download-img {
+    width: 15px;
+}
+
+.install {
+    gap: 10px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 120px;
+}
+
+.line {
+    color: lightslategrey;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.profile-img {
+    width: 30px;
+    border-radius: 300;
+    background-color: lightslategray;
+    margin-right: 5px;
+    height: 30px;
+    border-radius: 20px;
+    
+}
+
+.profile {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.profile-txt {
+    padding: 4px;
+    padding-left: 2px;
+    font-weight: bold;
+    color: white;
 }
