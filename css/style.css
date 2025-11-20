@@ -257,7 +257,7 @@ i {
 
 }
 
-.play-section {
+.progress-section {
     width: calc(100% / 3);
 }
 
@@ -306,5 +306,71 @@ footer .i {
 .fa:hover {
     cursor: pointer;
     color: white;
+
+}
+
+.progress-controller {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.control-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fa-circle-play {
+    font-size: xx-large;
+    width: 30px;
+}
+
+.progress-controller i:hover {
+    color: white;
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+
+.progress-controller i {
+    color: white;
+}
+
+.progress-bar {
+    height: 4px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #ccc4;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress {
+    position: relative;
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+.progress-container {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.timing {
+    margin-top: 10px;
+}
+
+.progress-bar:hover .progress{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
 
 }
