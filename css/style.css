@@ -375,6 +375,10 @@ footer .i {
 
 }
 
+.progress-bar:hover {
+    cursor: pointer;
+}
+
 .other-features {
     height: 100%;
     display: flex;
@@ -386,7 +390,7 @@ footer .i {
 .volume-bar {
     height: 4px;
     border-radius: 10px;
-    width: 30%;
+    width: 20%;
     background-color: #ccc4;
     margin-top: 6px;
     margin-right: 6px;
@@ -404,4 +408,8 @@ footer .i {
 .progress:hover{
     cursor: pointer;
     color: white;
+}
+
+.volume-bar:hover{
+    cursor: pointer;
 }
