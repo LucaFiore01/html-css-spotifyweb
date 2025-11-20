@@ -30,7 +30,7 @@ main {
 }
 
 footer {
-    background-color: blue;
+    background-color: #222;
     height: 100px;
     position: fixed;
     bottom: 0;
@@ -135,6 +135,11 @@ h2 {
     cursor: pointer;
 }
 
+.playlist i:first-child:hover {
+    cursor: pointer;
+    color: white
+}
+
 .round {
     border-radius: 100%;
 }
@@ -211,7 +216,7 @@ ul li {
     margin-right: 5px;
     height: 30px;
     border-radius: 20px;
-    
+
 }
 
 .profile {
@@ -226,4 +231,80 @@ ul li {
     padding-left: 2px;
     font-weight: bold;
     color: white;
+}
+
+i {
+    color: lightslategray;
+}
+
+/*PLAYER*/
+
+.player-img {
+    width: 50px;
+    height: 50px;
+}
+
+.player-container {
+    display: flex;
+    height: 100%;
+}
+
+.info-section {
+    width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+
+}
+
+.play-section {
+    width: calc(100% / 3);
+}
+
+.feature-section {
+    width: calc(100% / 3);
+}
+
+footer .i {
+    color: white;
+    width: 5px;
+    height: 5px;
+}
+
+.icons {
+    display: flex;
+    margin-left: 60px;
+    gap: 15px;
+}
+
+.image-container {
+    margin-right: 15px;
+}
+
+.fa-folder {
+    height: 30px;
+    width: 30px;
+    color: lightgray;
+}
+
+.fa-heart {
+    height: 30px;
+    width: 30px;
+    color: lightgray;
+}
+
+.artist {
+    font-size: smaller;
+}
+
+.title:hover,
+.artist:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.fa:hover {
+    cursor: pointer;
+    color: white;
+
 }

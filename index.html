@@ -11,6 +11,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 
@@ -22,22 +25,27 @@
                 <div class="side-menu-logo">
                     <img class="side-logo" src="./spotify/img/logo.svg" alt="logo di spotify">
                 </div>
-                
+
                 <ul>
                     <li>
-                        <img class="side-img" src="./spotify/img/home.svg" alt=""><p class="side-txt">Home</p>
+                        <img class="side-img" src="./spotify/img/home.svg" alt="">
+                        <p class="side-txt">Home</p>
                     </li>
                     <li>
-                        <img class="side-img" src="./spotify/img/search.svg" alt=""><p class="side-txt">Cerca</p>
+                        <img class="side-img" src="./spotify/img/search.svg" alt="">
+                        <p class="side-txt">Cerca</p>
                     </li>
                     <li>
-                        <img class="side-img" src="./spotify/img/libreria.svg" alt=""><p class="side-txt">La tua libreria</p>
+                        <img class="side-img" src="./spotify/img/libreria.svg" alt="">
+                        <p class="side-txt">La tua libreria</p>
                     </li>
                 </ul>
 
                 <ul class="playlist">
-                    <li><h3>PLAYLIST</h3></li>
-                    <li class="playlist-item">Crea Playlist</li>
+                    <li>
+                        <h3>PLAYLIST</h3>
+                    </li>
+                    <li class="playlist-item"><i class="fa-solid fa-square-plus"></i>Crea Playlist</li>
                     <li class="playlist-item">Nome Playlist</li>
                     <li class="playlist-item">Nome Playlist</li>
                     <li class="playlist-item">Nome Playlist</li>
@@ -60,7 +68,7 @@
             </aside>
             <div class="main-content">
                 <div class="header">
-                    <button class="button-outline">ESEGUI L'UPGRADE</button>
+                    <button class="button-outline">EFFETTUA L'UPGRADE</button>
                 </div>
                 <section>
                     <div class="tabs">
@@ -154,7 +162,34 @@
                 </section>
             </div>
         </main>
-        <footer>footer player</footer>
+
+        <footer>
+
+            <div class="player-container">
+
+                <div class="info-section">
+                    <div class="image-container">
+                        <img src="./spotify/img/sinister.jpeg" alt="immagine locandina sinister" class="player-img">
+                    </div>
+                    <div class="song-infos">
+                        <div class="title">
+                            <h5>Sinister</h5>
+                        </div>
+                        <div class="artist">
+                            <p>Brano Nome</p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-regular fa-heart fa"></i>
+                        <i class="fa-regular fa-folder fa"></i>
+                    </div>
+                </div>
+                <div class="play-section"></div>
+                <div class="feature-section"></div>
+
+            </div>
+
+        </footer>
     </div>
 
 
