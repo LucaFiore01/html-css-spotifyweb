@@ -284,13 +284,13 @@ footer .i {
 .fa-folder {
     height: 30px;
     width: 30px;
-    color: lightgray;
+    color: gray;
 }
 
 .fa-heart {
     height: 30px;
     width: 30px;
-    color: lightgray;
+    color: gray;
 }
 
 .artist {
@@ -362,15 +362,46 @@ footer .i {
     width: 100%;
     display: flex;
     gap: 10px;
-    
+
 }
 
 .timing {
     margin-top: 10px;
 }
 
-.progress-bar:hover .progress{
-    background-color: rgb(255, 255, 255);
+.progress-bar:hover .progress {
+    background-color: lightgray;
     cursor: pointer;
 
+}
+
+.other-features {
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    margin-top: 30px;
+}
+
+.volume-bar {
+    height: 4px;
+    border-radius: 10px;
+    width: 30%;
+    background-color: #ccc4;
+    margin-top: 6px;
+    margin-right: 6px;
+}
+
+.feature-section i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.feature-section i{
+    color: grey;
+}
+
+.progress:hover{
+    cursor: pointer;
+    color: white;
 }
